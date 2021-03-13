@@ -1,0 +1,62 @@
+body 
+    align-items: center   
+   
+    display flex
+    margin 0px
+    font-size: 14px
+    justify-content: center
+    min-height: 100vh
+    background-image: url('/static/images/imagen.jpg');
+.mtop16
+    margin-top: 16px
+.box
+    background-color: #fff
+    border-radius: 8px
+    border 1px solid #3A3A3A
+    position: relative
+   
+    width 500px
+    .header
+        font-family: 'Moon 2.0 Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2em
+        text-align:center;
+        src: local('Moon 2.0 Regular'), url('Moon2.0-Regular.woff') format('woff');
+        background-color #2d2d2d !important
+        padding 16px
+        
+        a
+            text-decoration: none
+            color #fff
+            img
+                display block
+                margin 0px auto
+                width 36px 
+    .btn-success
+        background-color: #5E9512
+        border 0px
+        width 100%
+    .form-control
+        &:focus
+        &:active
+            outline none
+            box-shadow none
+    .inside
+        padding 16px
+    .footer
+        text-align: center
+        a
+            display inline-block
+            &:last-child
+                margin-left: 35px
+   
+        
+
+
+    
+@media only screen and (max-width 728px)
+    .box
+        width 88%
+    .box-login
+        left calc(44% -250px)

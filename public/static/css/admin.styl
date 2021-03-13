@@ -1,0 +1,677 @@
+
+body
+    background-color: #f5f6f
+    font-size:1vw;
+    font-family: 'Roboto', sans-serif;
+
+    min-height: 100vh
+h2,h3,h4,h5,ul,body,html 
+    padding 0px
+    margin 0px
+
+
+.mtop16
+    margin-top: 16px
+
+.mb30
+    margin-bottom: 30 px
+
+.mb16
+    margin-bottom: 16 px
+    
+.wrapper
+    min-height: 100vh
+    overflow hidden
+    .col1
+        float left
+        position relative
+        z-index 999
+        width 17%
+    .col2
+        float left
+        width 83%
+        i
+            margin-right 5px
+.sidebar
+    background-color: #f5
+    min-height: 100vh
+    
+    .section-top
+        background-color: #2d2d2d
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.15)
+    .logo
+        display block
+        margin 0px
+        padding-top: 24px
+        width 90%
+        color #ffffff
+        display block
+        font-family: 'Moon 2.0 Regular';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.2em
+        text-align:center;
+        src: local('Moon 2.0 Regular'), url('Moon2.0-Regular.woff') format('woff');
+        h3
+            font-family: 'Moon 2.0 Regular';
+            font-style: normal;
+            font-weight: normal;
+            text-align:center;
+            font-size: 4vh
+            src: local('Moon 2.0 Regular'), url('Moon2.0-Regular.woff') format('woff');
+        h4
+            font-size: 17px
+            margin-left: 20px
+            font-family: 'Moon 2.0 Regular';
+            font-style: normal;
+            font-weight: normal;
+            text-align:center;
+            src: local('Moon 2.0 Regular'), url('Moon2.0-Regular.woff') format('woff');
+    .user
+        color #fff !important
+        padding 16px
+        a
+           color #fff
+           font-size: 1.2em
+           
+    .main
+        display: block
+        margin-top -8px
+       
+        .titlePanel
+            background-color: #2d2d2d
+            color #ffffff
+            text-align: center
+        .background
+            background-color: #2d2d2d
+        ul
+            
+            li
+                
+                i
+                    color #70DA50
+                a
+                    color #000 !important
+                    display block
+                    font-size: 1.1em
+                    padding: 12px 12px
+                   
+                    i
+                        margin-right 10px
+                        color #70DA50
+                     
+                    &:hover
+                        background-color: #2d2d2d
+                        box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.15)
+                        color #fff !important
+                        text-decoration: none
+                a.active
+                    background-color: #2d2d2d
+                    box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.15)
+                    color #fff !important
+                    text-decoration: none
+.navbar
+    background-color: #2d2d2d
+    height: 70px
+    a
+        color #ffffff 
+        i
+            color #70DA50
+    ul
+        width 200%
+        float right
+        margin-top: px
+        li
+            
+            ul
+                display: none
+                border: 1px solid #f0f0f0
+                background-color: #fff
+                float left 
+                width 100%
+                li  
+                    position relative
+                    float none
+                    border-bottom: 1px solid #f0f0f0
+                    &:last-child
+                        border-bottom: 0px 
+                    a
+                       display block
+                       width 100%
+       
+li.link-acc2
+    list-style-type: none;
+    a.nav-link
+        border radius 4px
+        color #ffffff
+        font-size: 1em
+        margin-right: 4px
+        padding 5px 16px !important
+    a.btn
+        &:hover
+            color: #70DA50   
+    a
+        
+        display inline-block
+        float left
+        img
+            align-items: right !important
+            margin-right: auto
+            width 40px
+    ul.dropdown-menu
+        position: absolute;
+        align-content: left !important
+        margin-top 14px !important
+        width 110% !important
+        left: 0;
+        margin-left:  -5px !important
+        z-index: 1000;
+        float: left;
+        min-width: 10rem;
+        padding: .5rem 0;
+        margin: .125rem 0 0;
+        font-size: .85rem;
+        text-align: left;
+        list-style: none;
+        background-color: #2d2d2d;
+        background-clip: padding-box;
+        
+        border-radius: .35rem;
+       
+        li
+            border-bottom: 1px solid #70DA50
+            margin-bottom: 2px
+            a
+                
+                display block
+                float none
+                width 100%
+                margin-top: 1px
+                i
+                    color #70DA50
+                    margin-left:  -17px !important
+                   
+            &:last-child
+                border-bottom: 0px
+a
+.btn
+    &:active
+    &:focus
+        box-shadow: none
+        outline: none            
+// Personalización Menu navbar
+
+/* Icon 1 */
+
+.animated-icon1, .animated-icon2, .animated-icon3 {
+width: 30px;
+height: 20px;
+position: relative;
+margin: 0px;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .5s ease-in-out;
+-moz-transition: .5s ease-in-out;
+-o-transition: .5s ease-in-out;
+transition: .5s ease-in-out;
+cursor: pointer;
+}
+
+
+.animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
+display: block;
+position: absolute;
+height: 3px;
+width: 100%;
+border-radius: 9px;
+opacity: 10;
+left: 0;
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-o-transform: rotate(0deg);
+transform: rotate(0deg);
+-webkit-transition: .25s ease-in-out;
+-moz-transition: .25s ease-in-out;
+-o-transition: .25s ease-in-out;
+transition: .25s ease-in-out;
+}
+
+.animated-icon1 span {
+background: #70DA50;
+}
+
+.animated-icon2 span {
+background: #e3f2fd;
+}
+
+.animated-icon3 span {
+background: #f3e5f5;
+}
+
+.animated-icon1 span:nth-child(1) {
+top: 0px;
+}
+
+.animated-icon1 span:nth-child(2) {
+top: 10px;
+}
+
+.animated-icon1 span:nth-child(3) {
+top: 20px;
+}
+
+.animated-icon1.open span:nth-child(1) {
+top: 11px;
+-webkit-transform: rotate(135deg);
+-moz-transform: rotate(135deg);
+-o-transform: rotate(135deg);
+transform: rotate(135deg);
+}
+
+.animated-icon1.open span:nth-child(2) {
+opacity: 0;
+left: -60px;
+
+}
+
+.animated-icon1.open span:nth-child(3) {
+top: 11px;
+-webkit-transform: rotate(-135deg);
+-moz-transform: rotate(-135deg);
+-o-transform: rotate(-135deg);
+transform: rotate(-135deg);
+}       
+    
+        
+.page
+    padding-top: 16px
+    padding-bottom: 16px
+    .breadcrumb
+        background-color: #ffffff
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.15)
+        a
+            color #080808
+        i
+            color #70DA50
+    .panel
+        background-color: #ffffff
+        border-radius: 6px
+        border-bottom: 2px solid #70DA50
+        width 100%
+        .header
+            border-bottom: 1px solid #70DA50
+            h2.title
+                display inline-block
+                color: #19213b
+                font-size: 1.1em
+                padding 12px 16px
+            i
+                margin-right 5px
+                color #70DA50
+            ul
+                display inline-block
+                float right
+                margin-right: 12px
+                li
+                    display inline-block
+                    position relative
+                    a
+                        color #080808
+                        display inline-block
+                        padding 10px
+                        &:hover
+                            background-color: #f6f6f6
+                            color #70DA50
+                            text-decoration: none
+                        i
+                            color #70DA50
+                    ul
+                        display: none
+                        border: 1px solid #f0f0f0
+                        background-color: #fff
+                        float none 
+                        position absolute
+                        right -12px
+                        width 140px
+                        li  
+                            display inline-block
+                            width 100%
+                            border-bottom: 1px solid #f0f0f0
+                            &:last-child
+                                border-bottom: 0px 
+                            a
+                               display block
+                               width 100%
+                    &:hover
+                        ul
+                            display block
+        .inside
+            
+            padding 16px
+            .Seleccionar_Todo
+                border 1px solid #f5f6
+                font-size: 5em
+                color #ffff
+                background-color: #f5f6
+            .nav
+                .nav-link
+                    border: 1px solid #70DA50
+                    margin-right: 8px
+                    &:hover
+                        background-color: #70DA50
+                        color: #ffffff
+                i
+                    margin-right 5px
+            .form_search
+                margin-bottom: 16px
+                display none
+                .btn
+                    width 100%
+            .big_count
+                display block
+                width 100%
+                font-size: 3em
+                text-align: center
+    
+
+.container-fluid
+    display : inline-block
+    width 100%
+    
+
+                           
+.opts
+    overflow hidden
+    a
+        display: flex
+        align-items: center
+        cursor pointer
+        float left
+        margin-right: 8px
+        border-radius: 4px
+        border 1px solid #dedede
+        justify-content: center
+        display flex
+        padding 8px
+        height: 38px
+        width 38px
+        i
+            margin-left: 5px
+
+.product_gallery
+    overflow hidden
+    .btn-submit
+        display: block
+        width 100%
+        margin-right: 1%
+        a
+            border 1px dashed #6666
+            border-radius: 4px
+            color #333
+            display: block
+            font-size: 1.5em
+            text-align: center
+            padding 12px
+            width 100%
+            &:hover
+                background-color: #70DA50
+                color #fff
+    .tumbs
+        overflow hidden
+        .tumb
+            float left
+            margin-top: 16px
+            position relative
+            width 48%
+            a
+                background-color: rgba(0,0,0, .5)
+                border-radius: 40%
+                display: inline-block
+                color #ffffff
+                padding: 3px 4px             
+                position absolute
+                bottom 8px
+                right  1px
+                i
+                    margin-left: 4px
+            img
+                border-radius: 4px
+                width 100%
+            &:nth-child(odd)
+                margin-right: 4%
+.page_user
+    .mini_profile
+        .avatar
+            display block
+            margin 0px auto
+            border-radius: 50% !important
+            width 150px
+            .img
+                display block
+                margin 0px auto
+                border-radius: 50% !important
+                width 150px
+        .info
+            
+            color: #555
+            span 
+                display block
+                font-size: 1.2em
+                width 100%
+            span.title
+                font-weight: bold
+                margin-top: 16px
+        .btn
+            margin-top: 16px
+            width 100%
+.alert
+    ul
+        list-style-position: inside
+        margin-left 16px
+
+
+.slider_content
+    background-color: #f9f9f9
+    border-radius: 4px
+    padding 16px
+    h2
+        font-size 1.4em
+        margin 0px
+        padding 0px
+    h1
+        font-size 1.2em
+        font-weight: bold 
+.span
+    .span-link
+        margin-top: 16px
+
+@media only screen and (max-width 728px)
+    .page
+    padding-top: 16px
+    padding-bottom: 16px
+    .breadcrumb
+        background-color: #ffffff
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.15)
+        a
+            color #080808
+        i
+            color #70DA50
+    .col-md-3
+        width 50%
+        .panel
+            background-color: #ffffff
+            border-radius: 6px
+            border-bottom: 2px solid #70DA50
+            margin 1%
+            width 100%
+            h2.title
+                font-size 2em
+            .header
+                
+                border-bottom: 1px solid #70DA50
+                h2.title
+                    display inline-block
+                    color: #19213b
+                    font-size: 2em !important
+                    padding 12px 16px
+                i
+                    margin-right 5px
+                    color #70DA50
+                ul
+                    display inline-block
+                    float right
+                    margin-right: 12px
+                    li
+                        display inline-block
+                        position relative
+                        a
+                            color #080808
+                            display inline-block
+                            padding 10px
+                            &:hover
+                                background-color: #f6f6f6
+                                color #70DA50
+                                text-decoration: none
+                            i
+                                color #70DA50
+                        ul
+                            display: none
+                            border: 1px solid #f0f0f0
+                            background-color: #fff
+                            float none 
+                            position absolute
+                            right -12px
+                            width 140px
+                            li  
+                                display inline-block
+                                width 100%
+                                border-bottom: 1px solid #f0f0f0
+                                &:last-child
+                                    border-bottom: 0px 
+                                a
+                                   display block
+                                   width 100%
+                        &:hover
+                            ul
+                                display block
+            .inside
+                .nav
+                    .nav-link
+                        border: 1px solid #70DA50
+                        margin-right: 29px
+                        &:hover
+                            background-color: #70DA50
+                            color: #ffffff
+                    i
+                        margin-right 5px
+                .form_search
+                    margin-bottom: 16px
+                    display none
+                    .btn
+                        width 100%
+                .big_count
+                    display block
+                    width 100%
+                    font-size: 5em
+                    text-align: center
+    
+    ::marker 
+        
+        font-size: 0em
+
+    
+            
+           
+    .main
+        ul
+
+            li
+                font-size: 2em
+                i
+                    color #70DA50
+                    font-size: 1em
+                    
+                    
+                a
+                    color #000000 !important
+                    display block !important
+                    padding: 12px 12px
+                    align-content: center !important
+                    align-items: center !important
+                    text-align: center !important
+                    margin auto
+                    i
+                        margin auto
+                    
+                    &:hover
+                       
+                        box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.15)
+                        color #fff !important
+                        text-decoration: none
+                a.active
+                    
+                    box-shadow: 0 0.5rem 1rem rgba(0,0,0, 0.15)
+                    color #fff !important
+                    text-decoration: none
+    .image
+    a
+        
+        img
+            width 28px !important
+    .opts
+    a
+        display: flex
+        align-items: center
+        cursor pointer
+        float left
+        margin-right: 8px
+        border-radius: 4px
+        border 1px  #dedede !important
+        justify-content: center
+        display inline-block
+        padding 8px
+        height: 38px
+        width 38px
+        i
+            margin-left: 3px
+                    
+    
+
+@media only screen and (max-width 780px)
+
+    li.link-acc2
+    list-style-type: none
+          
+        a
+            
+            display inline-flex !important
+            float left
+            display none
+            img
+                display hidden
+                width 0px !important
+    ul.dropdown-menu
+        li
+            border-bottom: 1px solid #70DA50
+            margin-bottom: 2px
+            a
+                
+                display block
+                float none
+                width 100%
+                margin-top: 1px
+                i
+                    color #70DA50
+                    margin-left:  -17px !important
+                   
+            &:last-child
+                border-bottom: 0px
+
+
+
+
+
+
+
